@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Waris Ali, Front-End Developer and Graphic Designer">
+    <meta name="keywords" content="Waris Ali, Front-End Developer, Graphic Designer, Portfolio">
+    <title>Waris Ali - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="navbar  fixed top-0 w-full z-50 bg-transparent py-4  main-nav">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <h1 class="text-2xl md:text-4xl font-bold text-white logo">Waris Ali</h1>
+
+
+            <!-- Navigation Links -->
+            <nav id="navLinks"
+                class="nav-links space-y-2 md:space-y-0 md:space-x-6 md:flex md:static absolute right-4 top-16 bg-white text-black md:bg-transparent md:text-white md:flex-row md:items-center p-4 md:p-0 rounded-lg z-50 hidden">
+                <a href="#about" class="hover:text-yellow-400">About</a>
+                <a href="#education" class="hover:text-yellow-400">Education</a>
+                <a href="#projects" class="hover:text-yellow-400">Projects</a>
+                <a href="#experience" class="hover:text-yellow-400">Experience</a>
+                <a href="#skills" class="hover:text-yellow-400">Skills</a>
+                <a href="#contact" class="hover:text-yellow-400">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <div class="animation-container">
+        <div class="smoke"></div>
+        <div class="smoke"></div>
+        <div class="smoke"></div>
+        <div class="smoke"></div>
+        <div class="smoke"></div>
+        <div class="smoke"></div>
+        <div class="smoke"></div>
+        <div class="smoke"></div>
+        <div class="smoke"></div>
+        <div class="smoke"></div>
+        <div class="smoke"></div>
+        <div class="smoke"></div>
+    </div>
+    <div class=" about bg-[radial-gradient(circle_at_center,_rgba(255,255,255,0.05)_1px,_transparent_1px)] bg-[length:15px_15px] bg-gray-950 background>
+   
+      <section  class= " py-20 bg-gradient-to-br from-gray-200 to-blue-950 bg-opacity-95 relative overflow-hidden
+        id="about" "
+        data-aos=" fade-up">
+        <div
+            class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZWZzPjxwYXR0ZXJuIGlkPSJub2lzZSIgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiBwYXR0ZXJuVW5pdHM9InVzZXJTcGFjZU9nVXNlIj48cmVjdCB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIGZpbGw9Im5vbmUiLz48Y2lyY2xlIGN4PSIyMCIgY3k9IjIwIiByPSIxIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDMpIi8+PC9wYXR0ZXJuPjwvZGVmcz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI25vaXNlKSIvPjwvc3ZnPg==')] opacity-10 pointer-events-none">
+        </div>
+        <div class="absolute inset-0 bg-gradient-to-br from-gray-900 to-blue-950 animate-gradient-shift"></div>
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center gap-12 relative z-10">
+            <!-- Image Section -->
+            <div class="w-full md:w-1/4 p-4 max-w-[250px]">
+                <div class="card bg-gray-800 p-6 rounded-lg" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="relative aspect-square overflow-hidden rounded-xl shadow-lg gradient-border">
+                        <img src="waris profile photo.jpg" alt="Profile Image"
+                            class="w-full h-full object-cover transition-transform duration-300 hover:scale-105">
+                    </div>
+                </div>
+            </div>
+            <!-- Content Section -->
+            <div class="w-full md:w-3/4 p-4 text-center md:text-left ">
+                <h2 class="section-title text-3xl md:text-4xl font-bold text-blue-400 mb-4">About Me</h2>
+                <div
+                    class="flex flex-col sm:flex-row flex-wrap sm:items-center justify-center sm:justify-start gap-4 mb-6 ">
+                    <div class="flex items-center gap-2 animationText">
+                        <span class="text-yellow-300 font-bold text-2xl ">I'm</span>
+                        <span class=" text-blue-200 text-2xl font-medium" id="typed-text" aria-live="polite"
+                            aria-atomic="true"></span>
+                    </div>
+                </div>
+                <p class="max-w-2xl mx-auto md:mx-0 text-lg text-gray-300 leading-relaxed">
+                    I'm a passionate Front-End Developer and Graphic Designer with expertise in HTML, CSS, JavaScript,
+                    and Bootstrap.
+                    With a background in Quranic teaching and administrative roles, I craft user-friendly, visually
+                    stunning digital solutions
+                    that blend creativity and functionality.
+                </p>
+                <a href="./resume.pdf" download
+                    class="mt-6 inline-block bg-blue-600 text-white py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors duration-300 font-medium">
+                    Download Resume
+                </a>
+            </div>
+        </div>
+        </section>
+    </div>
+
+    <!-- Education Section - Separated -->
+    <section id="education" class="py-20 bg-gray-900" data-aos="fade-up" data-aos-delay="100">
+        <div class="container mx-auto px-4">
+            <h2 class="section-title text-3xl md:text-4xl font-semibold text-blue-400 text-center">Education & Training
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+                <div class="card bg-gray-800 p-6 rounded-lg" data-aos="zoom-in" data-aos-delay="200">
+                    <h3 class="text-xl font-semibold text-yellow-300">Intermediate</h3>
+                    <p class="text-gray-400">Currently Enrolled, Karachi (2023 - Present)</p>
+                </div>
+                <div class="card bg-gray-800 p-6 rounded-lg" data-aos="zoom-in" data-aos-delay="300">
+                    <h3 class="text-xl font-semibold text-yellow-300">Matriculation</h3>
+                    <p class="text-gray-400">Iqra Rehan-ul-Atfal School, Karachi (2021)</p>
+                </div>
+                <div class="card bg-gray-800 p-6 rounded-lg" data-aos="zoom-in" data-aos-delay="400">
+                    <h3 class="text-xl font-semibold text-yellow-300">M.A. Islamic Studies</h3>
+                    <p class="text-gray-400">Jamia tul Madina, Karachi (2022)</p>
+                </div>
+                <div class="card bg-gray-800 p-6 rounded-lg" data-aos="zoom-in" data-aos-delay="500">
+                    <h3 class="text-xl font-semibold text-yellow-300">Web Development (Semester 1)</h3>
+                    <p class="text-gray-400">Aptech, Karachi (2024)</p>
+                </div>
+                <div class="card bg-gray-800 p-6 rounded-lg" data-aos="zoom-in" data-aos-delay="600">
+                    <h3 class="text-xl font-semibold text-yellow-300">Web Development (Semester 1)</h3>
+                    <p class="text-gray-400">Saylani Mass IT Training (SMIT), Karachi (2024)</p>
+                </div>
+                <div class="card bg-gray-800 p-6 rounded-lg" data-aos="zoom-in" data-aos-delay="700">
+                    <h3 class="text-xl font-semibold text-yellow-300">Web & App Development <br>(In Progress)</h3>
+                    <p class="text-gray-400">Currently pursuing Web and App Development with full dedication. On the
+                        path to becoming a proficient Full-Stack Developer very soon.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="py-20 bg-gray-900" data-aos="fade-up" data-aos-delay="100">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="section-title text-3xl md:text-4xl font-semibold text-blue-400 text-center">Projects</h2>
+            <!-- Original Projects -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+                <div class="card bg-gray-800 p-6 rounded-lg" data-aos="slide-up" data-aos-delay="200">
+                    <h3 class="text-xl font-semibold text-yellow-300">E-Commerce Website</h3>
+                    <p class="text-gray-400">Built a responsive e-commerce platform using HTML, CSS, JavaScript, and
+                        Bootstrap. Integrated Firebase for basic backend functionality.</p>
+                </div>
+                <div class="card bg-gray-800 p-6 rounded-lg" data-aos="slide-up" data-aos-delay="300">
+                    <h3 class="text-xl font-semibold text-yellow-300">Graphic Design</h3>
+                    <p class="text-gray-400">Created visual assets using Adobe Photoshop and Illustrator for various
+                        creative projects.</p>
+                </div>
+            </div>
+            <!-- New Projects Subsection -->
+            <h3 class="text-2xl font-semibold text-blue-400 text-center mt-12 mb-6">Featured Projects</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Project 1: Game (Snake Game) -->
+                <div class="card bg-gray-800 p-6 rounded-lg" data-aos="zoom-in" data-aos-delay="200">
+                    <a href="https://warisgulzar123.github.io/saylani-clone/">
+                        <div class="relative aspect-[4/3] overflow-hidden rounded-lg mb-4 max-w-[350px] mx-auto">
+
+                            <img src="saylani SS.png" alt="Snake Game Screenshot"
+                                class="w-full h-full object-cover transition-transform duration-300 hover:scale-105">
+                        </div>
+                        <h3 class="text-lg font-semibold text-yellow-300">Saylani Web clone</h3>
+                        <p class="text-gray-400 text-base">Developed a classic Snake game using HTML5 Canvas and
+                            JavaScript, featuring smooth controls and score tracking.</p>
+                </div></a>
+                <!-- Project 2: Game (Tic-Tac-Toe) -->
+                <div class="card bg-gray-800 p-6 rounded-lg" data-aos="zoom-in" data-aos-delay="300">
+                    <a href="https://warisgulzar123.github.io/tic-tac-toe/">
+                        <div class="relative aspect-[4/3] overflow-hidden rounded-lg mb-4 max-w-[350px] mx-auto">
+                            <img src="tictoctoy SS.png" alt="Tic-Tac-Toe Screenshot"
+                                class="w-full h-full object-cover transition-transform duration-300 hover:scale-105">
+                        </div>
+                        <h3 class="text-lg font-semibold text-yellow-300">Tic-Tac-Toe</h3>
+                        <p class="text-gray-400 text-base">Built an interactive Tic-Tac-Toe game with HTML, CSS, and
+                            JavaScript, including AI opponent and responsive design.</p>
+                </div></a>
+                <!-- Project 3: Weather App -->
+                <div class="card bg-gray-800 p-6 rounded-lg weather-card" data-aos="zoom-in" data-aos-delay="400">
+                    <a href="https://warisgulzar123.github.io/weather-app/">
+                        <div class="relative aspect-[4/3] overflow-hidden rounded-lg mb-4 max-w-[350px] mx-auto">
+                            <img src="weather app ss.png" alt="Weather App Screenshot"
+                                class="w-full h-full object-cover transition-transform duration-300 hover:scale-105">
+                        </div>
+                        <h3 class="text-lg font-semibold text-yellow-300">Weather App</h3>
+                        <p class="text-gray-400 text-base">Developed a responsive Weather App using HTML, CSS, and
+                            JavaScript, fetching real-time weather data from an API.</p>
+                    </a>
+                </div>
+                <!-- Project 4: Website Clone (Portfolio) -->
+                <div class="card bg-gray-800 p-6 rounded-lg" data-aos="zoom-in" data-aos-delay="500">
+                    <a href="https://warisgulzar123.github.io/last-maze-game/">
+                        <div class="relative aspect-[4/3] overflow-hidden rounded-lg mb-4 max-w-[350px] mx-auto">
+                            <img src="maze SS.png" alt="Portfolio Clone Screenshot"
+                                class="w-full h-full object-cover transition-transform duration-300 hover:scale-105">
+                        </div>
+                        <h3 class="text-lg font-semibold text-yellow-300">Maze Game</h3>
+                        <p class="text-gray-400 text-base">Cloned a modern portfolio website using HTML, CSS, Bootstrap,
+                            and JavaScript for dynamic elements.</p>
+                </div></a>
+                <!-- Project 5: Currency Converter -->
+                <div class="card bg-gray-800 p-6 rounded-lg currency-card" data-aos="zoom-in" data-aos-delay="600">
+                    <a href="https://warisgulzar123.github.io/currency-converter/">
+                        <div class="relative aspect-[4/3] overflow-hidden rounded-lg mb-4 max-w-[350px] mx-auto">
+                            <img src="currency convert ss.png" alt="Currency Converter Screenshot"
+                                class="w-full h-full object-cover transition-transform duration-300 hover:scale-105">
+                        </div>
+                        <h3 class="text-lg font-semibold text-yellow-300">Currency Converter</h3>
+                        <p class="text-gray-400 text-base">Developed a responsive Currency Converter using HTML, CSS,
+                            and JavaScript, fetching real-time exchange rates from an API.</p>
+                    </a>
+                </div>
+                <!-- Project 6: Firebase Authentication -->
+                <div class="card bg-gray-800 p-6 rounded-lg firebase-card" data-aos="zoom-in" data-aos-delay="700">
+                    <a href="https://warisgulzar123.github.io/auth-onfirebase/">
+                        <div class="relative aspect-[4/3] overflow-hidden rounded-lg mb-4 max-w-[350px] mx-auto">
+                            <img src="login auth ss.png" alt="Firebase Authentication Screenshot"
+                                class="w-full h-full object-cover transition-transform duration-300 hover:scale-105">
+                        </div>
+                        <h3 class="text-lg font-semibold text-yellow-300">Firebase Authentication</h3>
+                        <p class="text-gray-400 text-base">Secure login system with Firebase Auth, email/social login,
+                            and responsive dashboard. Working on Chat App and Full Stack Website.</p>
+                    </a>
+                </div>
+                <!-- Explore More Button -->
+                <div class="mt-8 text-center" data-aos="fade-up" data-aos-delay="800">
+                    <a href="https://warisgulzar123.github.io/projects-file/"
+                        class="inline-flex items-center bg-blue-600 text-white py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors duration-300 font-medium group">
+                        Explore More Updating Projects
+                        <i
+                            class="fas fa-arrow-right ml-2 text-lg transform transition-transform duration-300 group-hover:translate-x-1"></i>
+                    </a>
+                </div>
+            </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 bg-gray-900" data-aos="fade-up" data-aos-delay="100">
+        <div class="container mx-auto px-4">
+            <h2 class="section-title text-3xl md:text-4xl font-semibold text-blue-400 text-center">Work Experience</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+                <div class="card bg-gray-800 p-6 rounded-lg" data-aos="slide-up" data-aos-delay="200">
+                    <h3 class="text-xl font-semibold text-yellow-300">Quran Teacher (Part-Time)</h3>
+                    <p class="text-gray-400">Karachi (2023 - Present)<br>Taught Quranic recitation (Tajweed) and Islamic
+                        basics with personalized feedback.</p>
+                </div>
+                <div class="card bg-gray-800 p-6 rounded-lg" data-aos="slide-up" data-aos-delay="300">
+                    <h3 class="text-xl font-semibold text-yellow-300">Checker, Educational Institute</h3>
+                    <p class="text-gray-400">Karachi (2024 - Present)<br>Managed administrative tasks and academic
+                        processes efficiently.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20" data-aos="fade-up" data-aos-delay="100">
+        <div class="container mx-auto px-4">
+            <h2 class="section-title text-3xl md:text-4xl font-semibold text-blue-400 text-center">Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
+                <div class="card bg-gray-800 p-6 rounded-lg" data-aos="zoom-in" data-aos-delay="200">
+                    <h3 class="text-xl font-semibold text-yellow-300">Front-End Development</h3>
+                    <p class="text-gray-400">HTML5, CSS3, JavaScript (ES6+), Bootstrap, Firebase (Basic)</p>
+                </div>
+                <div class="card bg-gray-800 p-6 rounded-lg" data-aos="zoom-in" data-aos-delay="300">
+                    <h3 class="text-xl font-semibold text-yellow-300">Graphic Design</h3>
+                    <p class="text-gray-400">Adobe Photoshop, Illustrator (Basic)</p>
+                </div>
+                <div class="card bg-gray-800 p-6 rounded-lg" data-aos="zoom-in" data-aos-delay="400">
+                    <h3 class="text-xl font-semibold text-yellow-300">Office Tools</h3>
+                    <p class="text-gray-400">MS Office (Word, Excel, PowerPoint)</p>
+                </div>
+                <div class="card bg-gray-800 p-6 rounded-lg" data-aos="zoom-in" data-aos-delay="500">
+                    <h3 class="text-xl font-semibold text-yellow-300">Languages</h3>
+                    <p class="text-gray-400">Urdu (Native), English (Intermediate), Arabic (Basic)</p>
+                </div>
+            </div>
+
+            <!-- Progress Bars Section -->
+            <section>
+                <div class="max-w-8xl mx-auto mt-10 px-4" data-aos="fade-up" data-aos-delay="600">
+                    <h3 class="text-xl text-white font-semibold mb-6 border-l-4 border-emerald-400 pl-3">
+                        Proficiency Levels
+                    </h3>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <!-- HTML -->
+                        <div>
+                            <div class="flex justify-between text-yellow-300 text-sm font-medium mb-1">
+                                <span>HTML</span><span>100%</span>
+                            </div>
+                            <div class="w-full bg-gray-700 rounded-full h-2">
+                                <div class="bg-yellow-400 h-2 rounded-full transition-all duration-1000 ease-in-out"
+                                    style="width: 100%"></div>
+                            </div>
+                        </div>
+
+                        <!-- CSS -->
+                        <div>
+                            <div class="flex justify-between text-blue-400 text-sm font-medium mb-1">
+                                <span>CSS</span><span>100%</span>
+                            </div>
+                            <div class="w-full bg-gray-700 rounded-full h-2">
+                                <div class="bg-blue-500 h-2 rounded-full transition-all duration-1000 ease-in-out"
+                                    style="width: 100%"></div>
+                            </div>
+                        </div>
+
+                        <!-- JavaScript -->
+                        <div>
+                            <div class="flex justify-between text-yellow-200 text-sm font-medium mb-1">
+                                <span>JavaScript</span><span>80%</span>
+                            </div>
+                            <div class="w-full bg-gray-700 rounded-full h-2">
+                                <div class="bg-yellow-300 h-2 rounded-full transition-all duration-1000 ease-in-out"
+                                    style="width: 80%"></div>
+                            </div>
+                        </div>
+
+                        <!-- Graphic Design -->
+                        <div>
+                            <div class="flex justify-between text-purple-300 text-sm font-medium mb-1">
+                                <span>Graphic Design</span><span>80%</span>
+                            </div>
+                            <div class="w-full bg-gray-700 rounded-full h-2">
+                                <div class="bg-purple-400 h-2 rounded-full transition-all duration-1000 ease-in-out"
+                                    style="width: 80%"></div>
+                            </div>
+                        </div>
+
+                        <!-- Bootstrap -->
+                        <div>
+                            <div class="flex justify-between text-green-300 text-sm font-medium mb-1">
+                                <span>Bootstrap</span><span>80%</span>
+                            </div>
+                            <div class="w-full bg-gray-700 rounded-full h-2">
+                                <div class="bg-green-400 h-2 rounded-full transition-all duration-1000 ease-in-out"
+                                    style="width: 80%"></div>
+                            </div>
+                        </div>
+
+                        <!-- ES6 -->
+                        <div>
+                            <div class="flex justify-between text-indigo-300 text-sm font-medium mb-1">
+                                <span>ES6</span><span>100%</span>
+                            </div>
+                            <div class="w-full bg-gray-700 rounded-full h-2">
+                                <div class="bg-indigo-400 h-2 rounded-full transition-all duration-1000 ease-in-out"
+                                    style="width: 100%"></div>
+                            </div>
+                        </div>
+                        <!-- Firebase -->
+                        <div>
+                            <div class="flex justify-between text-indigo-300 text-sm font-medium mb-1">
+                                <span>Firebase</span><span>80%</span>
+                            </div>
+                            <div class="w-full bg-gray-700 rounded-full h-2">
+                                <div class="bg-pink-800 h-2 rounded-full transition-all duration-1000 ease-in-out"
+                                    style="width: 80%"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+        </div>
+    </section>
+
+
+    <!-- Smoke Animation Container After Skills -->
+    <div class="animation-container">
+        <div class="smoke"></div>
+        <div class="smoke"></div>
+        <div class="smoke"></div>
+        <div class="smoke"></div>
+        <div class="smoke"></div>
+        <div class="smoke"></div>
+        <div class="smoke"></div>
+        <div class="smoke"></div>
+        <div class="smoke"></div>
+        <div class="smoke"></div>
+        <div class="smoke"></div>
+        <div class="smoke"></div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-900" data-aos="fade-up" data-aos-delay="100">
+        <div class="container mx-auto px-4">
+            <h2 class="section-title text-3xl md:text-4xl font-semibold text-blue-400 text-center">Contact Me</h2>
+            <form id="contact-form" class="max-w-lg mx-auto mt-8 space-y-4" novalidate>
+                <div class="relative">
+                    <input type="text" name="name" id="name" placeholder="Your Name" required
+                        class="w-full p-3 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-300"
+                        data-aos="fade-right" data-aos-delay="200">
+                    <span
+                        class="error-message text-red-400 text-sm absolute left-full ml-2 top-1/2 transform -translate-y-1/2 hidden z-10 max-w-xs"
+                        aria-live="polite"></span>
+                </div>
+                <div class="relative">
+                    <input type="email" name="email" id="email" placeholder="Your Email" required
+                        class="w-full p-3 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-300"
+                        data-aos="fade-left" data-aos-delay="300">
+                    <span
+                        class="error-message text-red-400 text-sm absolute left-full ml-2 top-1/2 transform -translate-y-1/2 hidden z-10 max-w-xs"
+                        aria-live="polite"></span>
+                </div>
+                <div class="relative">
+                    <textarea name="message" id="message" placeholder="Your Message" rows="5" required
+                        class="w-full p-3 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-300"
+                        data-aos="fade-up" data-aos-delay="400"></textarea>
+                    <span
+                        class="error-message text-red-400 text-sm absolute left-full ml-2 top-1/2 transform -translate-y-1/2 hidden z-10 max-w-xs"
+                        aria-live="polite"></span>
+                </div>
+                <button type="submit" id="submit-btn"
+                    class="w-full p-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-all duration-300 flex items-center justify-center"
+                    data-aos="zoom-in" data-aos-delay="500">
+                    <span class="btn-text">Send Message</span>
+                    <svg id="spinner" class="animate-spin h-5 w-5 ml-2 text-white hidden"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4">
+                        </circle>
+                        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8H4z"></path>
+                    </svg>
+                    <i id="success-icon" class="fas fa-check-circle ml-2 text-xl hidden"></i>
+                </button>
+            </form>
+            <div class="social-icons mt-8 flex justify-center space-x-6">
+            
+              
+                <a href="https://instagram.com/waris41141" target="_blank" aria-label="Instagram"
+                    class="text-white hover:text-blue-400 transition-all duration-300 transform hover:scale-110 relative group"
+                    data-tooltip="Instagram">
+                    <i class="fab fa-instagram text-2xl"></i>
+                </a>
+             <a href="mailto:warisaligulzar123@gmail.com" target="_blank" aria-label="Gmail"
+    class="text-white hover:text-blue-400 transition-all duration-300 transform hover:scale-110 relative group"
+    data-tooltip="Gmail">
+    <i class="fas fa-envelope text-2xl"></i>
+</a>
+
+                <a href="https://wa.me/923147483868" target="_blank" aria-label="WhatsApp"
+                    class="text-white hover:text-green-400 transition-all duration-300 transform hover:scale-110 relative group"
+                    data-tooltip="WhatsApp">
+                    <i class="fab fa-whatsapp text-2xl"></i>
+                </a>
+  <a href="https://www.facebook.com/profile.php?id=61577161780117" target="_blank" aria-label="Facebook"
+    class="text-white hover:text-blue-500 transition-all duration-300 transform hover:scale-110 relative group"
+    data-tooltip="Facebook">
+    <i class="fab fa-facebook-f text-2xl"></i>
+</a>
+<a href="https://www.linkedin.com/in/waris-ali-62a819368/" target="_blank" aria-label="LinkedIn"
+    class="text-white hover:text-blue-400 transition-all duration-300 transform hover:scale-110 relative group mx-2"
+    data-tooltip="LinkedIn">
+    <i class="fab fa-linkedin-in text-2xl"></i>
+</a>
+
+            </div>
+
+            <div id="toast-container" class="fixed top-4 right-4 z-50"></div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+
+    <footer class="py-4 bg-gray-800 text-center">
+        <p class="text-gray-400">© 2025 Waris Ali. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+
+        // Typed Text Animation for About Section
+        const roles = ["Front-End Developer", "Graphic Designer", "Creative Thinker"];
+        let index = 0, charIndex = 0, isDeleting = false;
+        const typedText = document.getElementById("typed-text");
+
+        function type() {
+            const currentRole = roles[index];
+            typedText.textContent = currentRole.substring(0, charIndex);
+
+            if (!isDeleting && charIndex < currentRole.length) {
+                charIndex++;
+                setTimeout(type, 100);
+            } else if (isDeleting && charIndex > 0) {
+                charIndex--;
+                setTimeout(type, 50);
+            } else {
+                isDeleting = !isDeleting;
+                if (!isDeleting) {
+                    index = (index + 1) % roles.length;
+                }
+                setTimeout(type, isDeleting ? 1000 : 2000);
+            }
+        }
+
+        if (typedText) {
+            type(); // Start typing animation
+        }
+    </script>
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
